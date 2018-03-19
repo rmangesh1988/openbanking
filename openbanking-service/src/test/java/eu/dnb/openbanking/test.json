@@ -1,0 +1,33 @@
+{
+  "customerId" : "12345678903",
+  "customerType" : "PERSON",
+  "firstName" : "Rune",
+  "lastName" : "Bjerke",
+  "companyName" : "DNB",
+  "address" : {
+    "postalAddressLine1" : "Dronning Eufemias gate 30",
+    "postalAddressLine2" : "c/o CEO office",
+    "postalAddressLine3" : "example",
+    "postCode" : "0191",
+    "postCity" : "Oslo",
+    "postCountry" : "NO"
+  },
+  "email" : "example@example.com",
+  "phone" : "+4791504800",
+  "countryOfBirth" : "NO",
+  "countryCitizenship" :  "NO" ,
+  "countryTax" :  "NO" ,
+  "customerEngagements" : [ {
+    "engagementId" : "12345",
+    "engagementType" : "DEPOSIT",
+    "accountNumber" : "12345678901",
+    "friendlyName" : "SAGA MasterCard",
+    "corporate" : true
+  }, {
+    "engagementId" : "44223",
+    "engagementType" : "CREDITCARD",
+    "accountNumber" : "12345678902",
+    "friendlyName" : "SAGA3 MasterCard",
+    "corporate" : false
+  } ]
+}
