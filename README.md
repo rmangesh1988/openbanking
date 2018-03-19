@@ -11,7 +11,7 @@ GET, PATCH, POST service for customer resource.
 
 ### Installing steps
 ```
-1.Checkout the project
+1.Checkout the project (git clone https://github.com/rmangesh1988/openbanking.git)
 2.cd .. to openbanking
 3.mvn clean install
 4.cd.. to openbanking-service
